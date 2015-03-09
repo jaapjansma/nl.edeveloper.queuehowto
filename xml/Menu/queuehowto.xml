@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/queuehowto/runner</path>
+    <page_callback>CRM_Queuehowto_Page_Runner</page_callback>
+    <title>Runner</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/queuehowto/tasks</path>
+    <page_callback>CRM_Queuehowto_Page_Tasks</page_callback>
+    <title>Tasks</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
